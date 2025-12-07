@@ -194,3 +194,101 @@ I created this repo to keep all important React resources and questions in one p
 79. What is lazy loading in React?
 80. How do you implement code-splitting in React?
 
+
+## Advanced React Interview Questions
+
+📌 Section 1 — React Internals & Fiber Architecture (1–20)
+
+1. What is the React Fiber architecture and why was it introduced?
+2. How does Fiber improve React's rendering performance?
+3. What is the difference between synchronous and asynchronous rendering in React?
+4. What are "units of work" in the Fiber architecture?
+5. What is the reconciliation phase vs the commit phase?
+6. Explain how React breaks rendering into small chunks.
+7. What is the priority scheduling feature in React Fiber?
+8. What is cooperative scheduling in React?
+9. How does React handle interruptions during long renders?
+10. What is the purpose of lanes in modern React?
+11. How does React determine which update to process first?
+12. What is double buffering in React reconciliation?
+13. What is the difference between the render tree and the effect list?
+14. What is the significance of the effect tag in React Fiber?
+15. How does React keep track of DOM mutations before committing?
+16. What is the difference between legacy mode and concurrent mode?
+17. Why does concurrent mode make React "interruptible"?
+18. How does React batch updates by default in concurrent mode?
+19. What does "time slicing" mean in React?
+20. What are Suspense boundaries and how do they work internally?
+
+📌 Section 2 — Advanced Hooks, States, & Patterns (21–40)
+
+21. Why is useEffect not guaranteed to run immediately after DOM updates?
+22. How does React prevent race conditions with effects?
+23. What is a tear-off update?
+24. Why can stale closures occur even with dependency arrays?
+25. What is the difference between useMemo caching and component memoization?
+26. What are the limitations of useCallback?
+27. Why should heavy logic not be placed directly inside components?
+28. How to create a global event bus using hooks?
+29. How do you implement a custom pub/sub pattern in React?
+30. What is the difference between lifting state and global state?
+31. What is a controlled re-render strategy?
+32. What is a selector pattern and how do you implement one?
+33. How does React detect state changes with objects?
+34. How do you optimize React for large nested states?
+35. How does useSyncExternalStore work internally?
+36. Why was useSyncExternalStore added to React 18?
+37. What is an atom-based state management pattern?
+38. How do libraries like Recoil and Jotai differ from Redux?
+39. What is the difference between optimistic UI and pessimistic UI?
+40. How do you detect and fix a memory leak caused by hooks?
+
+📌 Section 3 — Advanced Performance & Optimization (41–55)
+
+41. How do you identify a React performance bottleneck?
+42. What is why-did-you-render and how does it help profiling?
+43. How do you optimize re-renders in deeply nested components?
+44. What is render-as-you-fetch strategy?
+45. What is the difference between fetch-on-render and fetch-then-render?
+46. How does React handle large lists efficiently?
+47. What is react-window and how does it work internally?
+48. How do you implement infinite scrolling in React?
+49. How does debouncing vs throttling impact performance?
+50. What is priority-based rendering?
+51. How do you measure FPS or performance drops in React apps?
+52. How do you optimize React for low-end devices?
+53. What is the difference between hydration and rendering?
+54. How to optimize React hydration on slower networks?
+55. Analyze why unnecessary props cause re-renders in React.
+
+📌 Section 4 — Architecture, Patterns & Large-Scale Apps (56–70)
+
+56. What is container-presentational pattern?
+57. What is a render prop and when should you use it?
+58. Why are Higher-Order Components still relevant?
+59. What is the difference between HOCs and custom hooks?
+60. How do you structure a large-scale React application?
+61. What folder structure works best for scalable React projects?
+62. What are micro-frontends and how do they integrate with React?
+63. What is Module Federation in Webpack?
+64. How do you share components across micro-frontends?
+65. What is an event-driven architecture in React apps?
+66. What is an error boundary and how does it work internally?
+67. Why can't error boundaries catch errors inside event handlers?
+68. How do you implement feature flags in React?
+69. What is code-splitting vs component-level splitting?
+70. What is dead code elimination and how does React benefit from it?
+
+📌 Section 5 — Routing, SSR, Next.js & Advanced Ecosystem (71–80)
+
+71. How does React Router differ from Next.js routing?
+72. What is SSR (Server-Side Rendering) in React?
+73. What is SSG (Static Site Generation) and when should you use it?
+74. What is ISR (Incremental Static Regeneration) in Next.js?
+75. What is the difference between SSR hydration and client rendering?
+76. Explain how Next.js handles API caching.
+77. How does Next.js streaming and server components work?
+78. What are React Server Components (RSC)?
+79. What is the difference between client components and server components?
+80. How does Next.js improve React performance internally?
+
